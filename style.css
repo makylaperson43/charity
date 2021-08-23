@@ -1,7 +1,5 @@
 body{
-    background-image: url("images/75729614.cms.webp");
-    background-attachment: fixed;
-    background-size: cover;
+    background-color: lavender;
 }
 
 h1{
@@ -9,9 +7,11 @@ h1{
 }
 
 img{
-    border-color: red;
+    width: 600px;
+    border-color: turquoise;
     border-style: solid;
     border-width: 5px;
+    margin-left: 60px;
 }
 
 h2{
@@ -19,13 +19,34 @@ h2{
     color: silver;
 }
 
-h3{
+.whatwedo{
     font-size: 20px;
-    color: blue;
+    color: plum;
+    margin-left: 50px;
 }
 
 h4{
     font-size: 16px;
-    float: left;
-    
+}
+
+h5{
+    font-size: large;
+}
+
+h6{
+    text-align: center;
+    font-size: 30px;
+    font-family: Snell Roundhand;
+}
+
+.margin{
+    text-align: center;
+}
+
+.background_items{
+    background-color: turquoise;
+}
+
+.items{
+    color: plum;
 }
